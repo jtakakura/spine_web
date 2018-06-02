@@ -1,0 +1,15 @@
+name: spine_web
+description: The spine-flutter runtime provides functionality to load and manipulate Spine skeletal animation data using HTML5 Canvas.
+version: 0.1.0
+homepage: https://github.com/jtakakura/spine_web/
+author: Junji Takakura <j.takakura@gmail.com>
+
+environment:
+  sdk: '>=2.0.0-dev.51.0 <2.0.0'
+
+dependencies:
+  spine_core:
+    git: git://github.com/jtakakura/spine_core.git
+
+dev_dependencies:
+  test: ^0.12.30
